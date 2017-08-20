@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+<script type="text/javascript" src="//player.wowza.com/player/latest/wowzaplayer.min.js"></script>
+</head> 
+
+<body>
+<div id="playerElement" style="width:100%; height:0; padding:0 0 56.25% 0"></div>
+
+
+<script type="text/javascript">
+WowzaPlayer.create('playerElement',
+    {
+    "license":"PLAY1-cJpmP-NdDp8-WmmCk-8Jwfj-rApYK",
+    "title":"LiveStream",
+    "description":"",
+    "sourceURL":"http%3A%2F%2F192.168.56.1%3A1935%2Flive%2FmyStream%2Fplaylist.m3u8",
+    "autoPlay":false,
+    "volume":"75",
+    "mute":false,
+    "loop":false,
+    "audioOnly":false,
+    "uiShowQuickRewind":true,
+    "uiQuickRewindSeconds":"30"
+    }
+);
+</script>
+</body>
+</html> 
